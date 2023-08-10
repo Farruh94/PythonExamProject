@@ -40,5 +40,3 @@ def check_html_content(directory_lookup):
                                 # mark, then we show where and which tag, and on which line.
                                 print(f"Tag {tag} not contain {mark} in file {os.path.abspath(i)} "
                                       f"at  line {number_of_line}: {elem}")
-
-
